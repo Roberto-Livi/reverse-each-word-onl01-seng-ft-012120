@@ -7,7 +7,7 @@ def reverse_each_word(string)
   reverse.join(" ")
 end
 
-def reverse_collect_word(string)
+def reverse_each_word(string)
   split_string = string.split(" ")
   reverse = []
   split_string.collect do |index|
@@ -18,4 +18,4 @@ end
 
 
 reverse_each_word("Hello there, and how are you?")
-reverse_collect_word("Hello there, and how are you?")
+reverse_each_word("Hello there, and how are you?")
