@@ -1,11 +1,10 @@
-sentence1 = "Hello there. and how are you?"
-def reverse_each_word(sentence1)
-  sentence2 = ""
-  sentence1.split(//).reverse_each do |l|
-    sentence2 << l
+def reverse_each_word(string)
+  split_string = string.split(" ")
+  reverse = []
+  split_string.each do |index|
+    reverse << index.reverse
   end
-  p sentence2.join(" ")
+  puts reverse.join(" ")
 end
 
-
-reverse_each_word(sentence1)
+def reverse_
