@@ -4,7 +4,7 @@ def reverse_each_word(string)
   split_string.each do |index|
     reverse << index.reverse
   end
-  puts reverse.join(" ")
+  reverse.join(" ")
 end
 
 def reverse_collect_word(string)
@@ -13,7 +13,7 @@ def reverse_collect_word(string)
   split_string.collect do |index|
     reverse << index.reverse
   end
-  puts reverse.join(" ")
+  reverse.join(" ")
 end
 
 
